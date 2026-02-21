@@ -5,7 +5,7 @@ Welcome stranger!
 If you have come here to learn how to contribute to mdBook, we have some tips for you!
 
 First of all, don't hesitate to ask questions!
-Use the [issue tracker](https://github.com/rust-lang/mdBook/issues), no question is too simple.
+Use the [issue tracker](https://github.com/Unity-Billal-mesloub/mdBook/issues), no question is too simple.
 
 ## Issue assignment
 
@@ -13,22 +13,22 @@ Use the [issue tracker](https://github.com/rust-lang/mdBook/issues), no question
 
 Before working on pull request, please ping us on the corresponding issue.
 The current PR backlog is beyond what we can process at this time.
-Only issues that have an [`E-Help-wanted`](https://github.com/rust-lang/mdBook/labels/E-Help-wanted) or [`Feature accepted`](https://github.com/rust-lang/mdBook/labels/Feature%20accepted) label will likely receive reviews.
+Only issues that have an [`E-Help-wanted`](https://github.com/Unity-Billal-mesloub/mdBook/labels/E-Help-wanted) or [`Feature accepted`](https://github.com/Unity-Billal-mesloub/mdBook/labels/Feature%20accepted) label will likely receive reviews.
 If there isn't already an open issue for what you want to work on, please open one first to see if it is something we would be available to review.
 
 ## Issues to work on
 
 If you are starting out, you might be interested in the
-[E-Easy issues](https://github.com/rust-lang/mdBook/issues?q=is%3Aopen+is%3Aissue+label%3AE-Easy).
+[E-Easy issues](https://github.com/Unity-Billal-mesloub/mdBook/issues?q=is%3Aopen+is%3Aissue+label%3AE-Easy).
 Those are issues that are considered more straightforward for beginners to Rust or the codebase itself.
 These issues can be a good launching pad for more involved issues.
 Easy tasks for a first time contribution include documentation improvements, new tests, examples, updating dependencies, etc.
 
 If you come from a web development background, you might be interested in issues related to web technologies tagged
-[A-JavaScript](https://github.com/rust-lang/mdBook/issues?q=is%3Aopen+is%3Aissue+label%3AA-JavaScript),
-[A-Style](https://github.com/rust-lang/mdBook/issues?q=is%3Aopen+is%3Aissue+label%3AA-Style),
-[A-HTML](https://github.com/rust-lang/mdBook/issues?q=is%3Aopen+is%3Aissue+label%3AA-HTML) or
-[A-Mobile](https://github.com/rust-lang/mdBook/issues?q=is%3Aopen+is%3Aissue+label%3AA-Mobile).
+[A-JavaScript](https://github.com/Unity-Billal-mesloub/mdBook/issues?q=is%3Aopen+is%3Aissue+label%3AA-JavaScript),
+[A-Style](https://github.com/Unity-Billal-mesloub/mdBook/issues?q=is%3Aopen+is%3Aissue+label%3AA-Style),
+[A-HTML](https://github.com/Unity-Billal-mesloub/mdBook/issues?q=is%3Aopen+is%3Aissue+label%3AA-HTML) or
+[A-Mobile](https://github.com/Unity-Billal-mesloub/mdBook/issues?q=is%3Aopen+is%3Aissue+label%3AA-Mobile).
 
 When you decide you want to work on a specific issue, and it isn't already assigned to someone else, assign the issue to yourself by leaving a comment with the text `@rustbot claim`.
 Again, do not hesitate to ask questions. We will gladly mentor anyone that want to tackle an issue.
@@ -49,7 +49,7 @@ mdBook builds on stable Rust, if you want to build mdBook from source, here are 
 0. Clone this repository with git.
 
    ```
-   git clone https://github.com/rust-lang/mdBook.git
+   git clone https://github.com/Unity-Billal-mesloub/mdBook.git
    ```
 0. Navigate into the newly created `mdBook` directory
 0. Run `cargo build`
@@ -65,7 +65,7 @@ We love code quality and Rust has some excellent tools to assist you with contri
 Before you make your Pull Request to the project, please run it through the `rustfmt` utility.
 This will ensure we have good quality source code that is better for us all to maintain.
 
-[rustfmt](https://github.com/rust-lang/rustfmt) has a lot more information on the project.
+[rustfmt](https://github.com/Unity-Billal-mesloub/rustfmt) has a lot more information on the project.
 The quick guide is
 
 1. Install it (`rustfmt` is usually installed by default via [rustup](https://rustup.rs/)):
@@ -82,7 +82,7 @@ The quick guide is
    ```
    When run through `cargo` it will format all bin and lib files in the current package.
 
-For more information, such as running it from your favourite editor, please see the `rustfmt` project. [rustfmt](https://github.com/rust-lang/rustfmt)
+For more information, such as running it from your favourite editor, please see the `rustfmt` project. [rustfmt](https://github.com/Unity-Billal-mesloub/rustfmt)
 
 ### Finding issues with clippy
 
@@ -105,7 +105,7 @@ Please consider the following when making a change:
 * Almost all changes that modify the Rust code must be accompanied with a test.
 
 * Almost all features and changes must update the documentation.
-  mdBook has the [mdBook Guide](https://rust-lang.github.io/mdBook/) whose source is at <https://github.com/rust-lang/mdBook/tree/master/guide>.
+  mdBook has the [mdBook Guide](https://rust-lang.github.io/mdBook/) whose source is at <https://github.com/Unity-Billal-mesloub/mdBook/tree/main/guide>.
 
 * Almost all Rust items should be documented with doc comments.
   See the [Rustdoc Book](https://doc.rust-lang.org/rustdoc/) for more information on writing doc comments.
@@ -185,7 +185,7 @@ If you want to disable the headless mode, use the `--disable-headless-test` opti
 cargo test --test gui -- --disable-headless-test
 ```
 
-The GUI tests are in the directory `tests/gui` in text files with the `.goml` extension. The books that the tests use are located in the `tests/gui/books` directory. These tests are run using a `node.js` framework called `browser-ui-test`. You can find documentation for this language on its [repository](https://github.com/GuillaumeGomez/browser-UI-test/blob/master/goml-script.md).
+The GUI tests are in the directory `tests/gui` in text files with the `.goml` extension. The books that the tests use are located in the `tests/gui/books` directory. These tests are run using a `node.js` framework called `browser-ui-test`. You can find documentation for this language on its [repository](https://github.com/Unity-Billal-mesloub/browser-UI-test/blob/main/goml-script.md).
 
 ### Checking changes in `.js` files
 
@@ -206,14 +206,14 @@ npm run lint
 
 The following are instructions for updating [highlight.js](https://highlightjs.org/).
 
-1. Clone the repository at <https://github.com/highlightjs/highlight.js>
+1. Clone the repository at <https://github.com/Unity-Billal-mesloub/highlight.js>
 1. Check out a tagged release (like `10.1.1`).
 1. Run `npm install`
 1. Run `node tools/build.js :common apache armasm coffeescript d handlebars haskell http julia nginx nim nix properties r scala x86asm yaml`
-1. Compare the language list that it spits out to the one in [`syntax-highlighting.md`](https://github.com/camelid/mdBook/blob/master/guide/src/format/theme/syntax-highlighting.md). If any are missing, add them to the list and rebuild (and update these docs). If any are added to the common set, add them to `syntax-highlighting.md`.
-1. Copy `build/highlight.min.js` to mdbook's directory [`highlight.js`](https://github.com/rust-lang/mdBook/blob/master/src/theme/highlight.js).
-1. Be sure to check the highlight.js [CHANGES](https://github.com/highlightjs/highlight.js/blob/main/CHANGES.md) for any breaking changes. Breaking changes that would affect users will need to wait until the next major release.
-1. Build mdbook with the new file and build some books with the new version and compare the output with a variety of languages to see if anything changes. The [syntax GUI test](https://github.com/rust-lang/mdBook/tree/master/tests/gui/books/highlighting) contains a chapter with many languages to examine. Update the test (`highlighting.goml`) to add any new languages.
+1. Compare the language list that it spits out to the one in [`syntax-highlighting.md`](https://github.com/Unity-Billal-mesloub/mdBook/blob/main/guide/src/format/theme/syntax-highlighting.md). If any are missing, add them to the list and rebuild (and update these docs). If any are added to the common set, add them to `syntax-highlighting.md`.
+1. Copy `build/highlight.min.js` to mdbook's directory [`highlight.js`](https://github.com/Unity-Billal-mesloub/mdBook/blob/main/src/theme/highlight.js).
+1. Be sure to check the highlight.js [CHANGES](https://github.com/Unity-Billal-mesloub/highlight.js/blob/main/CHANGES.md) for any breaking changes. Breaking changes that would affect users will need to wait until the next major release.
+1. Build mdbook with the new file and build some books with the new version and compare the output with a variety of languages to see if anything changes. The [syntax GUI test](https://github.com/Unity-Billal-mesloub/mdBook/tree/main/tests/gui/books/highlighting) contains a chapter with many languages to examine. Update the test (`highlighting.goml`) to add any new languages.
 
 ## Publishing new releases
 
@@ -221,7 +221,7 @@ Instructions for mdBook maintainers to publish a new release:
 
 1. Create a PR that bumps the version and updates the changelog:
     1. `git fetch upstream`
-    2. `git checkout -B bump-version upstream/master && git branch --set-upstream-to=origin/bump-version`
+    2. `git checkout -B bump-version upstream/main && git branch --set-upstream-to=origin/bump-version`
     3. `cargo xtask bump <BUMP>`
        - This will update the version of all the crates.
        - `cargo set-version` must first be installed with `cargo install cargo-edit`.
@@ -236,5 +236,5 @@ Instructions for mdBook maintainers to publish a new release:
    MDBOOK_VERS="`cargo read-manifest | jq -r .version`" ; \
     gh release create -R rust-lang/mdbook v$MDBOOK_VERS \
         --title v$MDBOOK_VERS \
-        --notes "See https://github.com/rust-lang/mdBook/blob/master/CHANGELOG.md#mdbook-${MDBOOK_VERS//.} for a complete list of changes."
+        --notes "See https://github.com/rust-lang/mdBook/blob/main/CHANGELOG.md#mdbook-${MDBOOK_VERS//.} for a complete list of changes."
    ```
